@@ -1,29 +1,22 @@
 #include "room.h"
 
-using namespace std;
-
-
-// Room class for all rooms that will be used. Inherits a header file.
+using namespace std;.
 
 Room::Room(int _id, char *_description) {
-    // Each room has an individual id and description
     id = _id;
     description = _description;
 }
 
-int Room::getId() {
-    // returns the room id as an int
+int Room::getID() {
     return id;
 }
 
-char *Room::getD() {
-    // returns the room id as a character pointer
+char *Room::getDescription() {
     return description;
 }
 
-void Room::setExit(int direction, Room *nExit) {
-    // connects the exit path and the location together in the map
-    exits[direction] = nExit;
+void Room::setExit(int direction, Room *exit) {
+    exits[direction] = exit;
 }
 
 Room *Room::getExit(int exit) {

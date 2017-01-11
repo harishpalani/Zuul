@@ -24,22 +24,22 @@ int main() {
     bool down;
 
     // Rooms
-    Room *player = new Room(0, "The character's inventory.");
-    Room *outside = new Room(1, "outside the main entrance of a university");
-    Room *movieTheater = new Room(2, "at a lecture theater at the edge of campus boundaries");
-    Room *pub = new Room(3, "at the unofficial campus pub");
-    Room *lab = new Room(4, "at the innovation lab");
-    Room *office = new Room(5, "at the admin office");
-    Room *basement = new Room(6, "in the office's basement");
-    Room *parkingLot = new Room(7, "in the parking lot");
-    Room *restaurant = new Room(8, "at an Italian restaurant");
-    Room *metroStation = new Room(9, "at the metro station, where you can take a train into the city");
-    Room *stadium = new Room(10, "at the stadium, where the college football team plays");
-    Room *museum = new Room(11, "at the Museo, where the achievements of the university's great alumni are honored");
-    Room *deli = new Room(12, "in the deli, the quick stop for snacks and sandwiches");
-    Room *communityTheater = new Room(13, "at the community theater, where student-produced plays run year-round");
-    Room *bookstore = new Room(14, "at the bookstore, which doubles as a study room as well");
-    Room *convenienceStore = new Room(15, "at the convenience store, where students stock up on essentials");
+    Room*player = new Room(0, "The character's inventory.");
+    Room*outside = new Room(1, "outside the main entrance of a university");
+    Room*movieTheater = new Room(2, "at a lecture theater at the edge of campus boundaries");
+    Room*pub = new Room(3, "at the unofficial campus pub");
+    Room*lab = new Room(4, "at the innovation lab");
+    Room*office = new Room(5, "at the admin office");
+    Room*basement = new Room(6, "in the office's basement");
+    Room*parkingLot = new Room(7, "in the parking lot");
+    Room*restaurant = new Room(8, "at an Italian restaurant");
+    Room*metroStation = new Room(9, "at the metro station, where you can take a train into the city");
+    Room*stadium = new Room(10, "at the stadium, where the college football team plays");
+    Room*museum = new Room(11, "at the Museo, where the achievements of the university's great alumni are honored");
+    Room*deli = new Room(12, "in the deli, the quick stop for snacks and sandwiches");
+    Room*communityTheater = new Room(13, "at the community theater, where student-produced plays run year-round");
+    Room*bookstore = new Room(14, "at the bookstore, which doubles as a study room as well");
+    Room*convenienceStore = new Room(15, "at the convenience store, where students stock up on essentials");
     
     // Items
     createItem("bicycle", "This is a device for transportation.", outside);
