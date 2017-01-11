@@ -1,6 +1,6 @@
 #include "room.h"
 
-using namespace std;.
+using namespace std;
 
 Room::Room(int _id, char *_description) {
     id = _id;
@@ -20,9 +20,9 @@ void Room::setExit(int direction, Room *exit) {
 }
 
 Room *Room::getExit(int exit) {
-    // Creates an iterator for the map that finds the room associated with the exit number
     map<int, Room *>::iterator it;
     it = exits.find(exit);
+    
     if (it != exits.end()) {
         return exits.find(exit)->second;
     } else {
